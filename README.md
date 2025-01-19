@@ -1,4 +1,4 @@
-# generate_card_html
+# HTML_cards
 
 
 "A visually appealing and responsive card component created using HTML and CSS.
