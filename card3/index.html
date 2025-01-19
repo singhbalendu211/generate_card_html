@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card 3</title>
+</head>
+<style>
+       *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            height: 100vh;
+            width: 100vw;
+            background-color: #52a0ce;
+            background-image: linear-gradient(135deg, #52a0ce 0%, #8384ca 100%);
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        
+        }
+
+        .card{
+            width: 700px;
+            height: 350px;
+            background-color: white;
+            display: flex;
+            align-items: center;
+        
+
+            
+        }
+
+        .leftBox{
+            background-color:rgb(83, 3, 83);
+            color: white;
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            padding-left: 40px;
+            padding-right: 18px;
+           
+        }
+
+        h2{
+            width: 90%;
+        }
+
+        .leftBox .stats{
+            display: flex;
+            justify-content: flex-start;
+            gap: 40px;
+    
+        }
+
+        .stats .numval{
+            font-weight: bold;
+            text-align: center;
+            font-size: larger;
+            padding: 4px;
+        }
+        
+
+        .rightBox{
+            width: 50%;
+            height: 100%;
+            background-image: url("icon.jpg");
+            background-size: 100%;
+        }
+</style>
+<body>
+    <div class="container">
+
+        <div class="card">
+            <div class="leftBox">
+                <h2>
+                    Get insghts that help your Business Grow
+                </h2>
+
+                <p id="cardPara">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam perspiciatis libero porro magnam et animi?
+                </p>
+
+                <div class="stats">
+                    <div>
+                        <p class="numval">10+</p>
+                        <p> Comments</p>
+                    </div>
+
+                    <div>
+                        <p class="numval">214</p>
+                        <p>Paid Users</p>
+                    </div>
+
+                    <div>
+                        <p class="numval">12M+</p>
+                        <p>Views</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="rightBox">
+
+            </div>
+
+        </div>
+
+
+    </div>
+</body>
+</html>
