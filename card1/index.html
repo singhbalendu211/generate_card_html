@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Website</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .container{
+            height: 100vh;
+            width: 100vw;
+            background-color: #97b6cc;
+            background-image: linear-gradient(135deg, #97b6cc 0%, #7578e7 100%);
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .card{
+            width: 335px;
+            height: 480px;
+            background-color: white;
+            border-radius: 17px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
+            padding: 15px;
+        }
+
+        .card img{
+            height: 63%;
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .card h2{
+            font-weight: bold;
+            font-size: 1.5rem;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .card p{
+            font-size: 1.em;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="card">
+                <img src="qrcode.png" alt="">
+
+                <h2>Scan QR code to create web projects </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, obcaecati.</p>
+        </div>
+
+    </div>
+</body>
+</html>
